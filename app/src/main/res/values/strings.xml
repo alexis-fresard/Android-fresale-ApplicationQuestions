@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ProjetApplication</string>
+    <string name="main_title">Questions pour un Champion</string>
+    <string name="main_joueur_1">Joueur 1</string>
+    <string name="main_joueur_2">Joueur 2</string>
+    <string name="main_margin_textview_joueurs1">Choisissez le nom du joueur 1</string>
+    <string name="main_margin_textview_joueurs2">Choisissez le nom du joueur 2</string>
+    <string name="main_boutton_Start">Start</string>
+    <string name="main_boutton_quitter">Quitter</string>
+    <string name="score_joueur1">0</string>
+    <string name="score_joueur2">0</string>
+    <string name="about">About</string>
+    <string name="Parametres">Paramètres</string>
+    <string name="libéllé_Joueur1">Jouer</string>
+    <string name="libéllé_Joueur2">Jouer</string>
+    <string name="libéllé_Questions">Question</string>
+    <string name="VersionApplication">Version 1</string>
+    <string name="AuteurApplication">Alexis Frésard</string>
+    <string name="derniereMaj">Dernière mise à jour : 10.02.2023</string>
+    <string name="nomProjet">ApplicationQuestions</string>
+    <string name="bt_annuler">Annuler</string>
+    <string name="bt_valider">Valider</string>
+    <string name="textParamTailleNomsJoueurs">Taille du noms des joueurs</string>
+
+</resources>

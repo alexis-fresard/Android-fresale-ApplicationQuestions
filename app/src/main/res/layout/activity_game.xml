@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:layout_width="177dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Game_joueur1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_textview_size"
+            android:gravity="center"
+            android:rotation="@dimen/Textview_Rotation"
+            android:text="@string/main_margin_textview_joueurs1" />
+
+        <TextView
+            android:id="@+id/Game_score_joueur1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginetop_score_joueur"
+            android:layout_marginEnd="@dimen/marginEnd_ActivityGame"
+            android:gravity="right"
+            android:text="@string/score_joueur1"
+            android:textSize="@dimen/main_textSize_score" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Game_bouton_joueur1"
+            android:layout_marginTop="@dimen/Game_Bouton_joueurs_marginTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextView_libellé_Joueur1"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_margin="@dimen/main_textview_size"
+            android:gravity="center"
+            android:rotation="180"
+            android:text="@string/libéllé_Joueur1"
+            android:textSize="@dimen/Game_libéllé_joueurs" />
+
+        <TextView
+            android:id="@+id/TextView_Questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_textview_size"
+            android:gravity="center"
+            android:text="@string/libéllé_Questions"
+            android:textSize="@dimen/Game_libéllé_joueurs" />
+
+        <TextView
+            android:id="@+id/TextView_libellé_Joueur2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/main_textview_size"
+            android:gravity="center"
+            android:text="@string/libéllé_Joueur1"
+            android:textSize="@dimen/Game_libéllé_joueurs" />
+
+        <Button
+            android:id="@+id/Game_bouton_joueur2"
+            android:layout_marginTop="@dimen/Game_Bouton_joueurs_marginTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Game_score_joueur2"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:layout_marginTop="@dimen/marginetop_score_joueur"
+            android:gravity="right"
+            android:rotation="@dimen/Textview_Rotation"
+            android:text="@string/score_joueur2"
+            android:textSize="@dimen/main_textSize_score" />
+
+        <TextView
+            android:id="@+id/Game_joueur2"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:layout_margin="@dimen/main_textview_size"
+            android:gravity="bottom"
+            android:text="@string/main_margin_textview_joueurs2" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

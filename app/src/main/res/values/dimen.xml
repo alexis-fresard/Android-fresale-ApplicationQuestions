@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="main_margin">50dp</dimen>
+    <dimen name="main_textview_size">10dp</dimen>
+    <dimen name="main_margintop_relativelayout">275dp</dimen>
+    <dimen name="main_TextSize">20dp</dimen>
+    <dimen name="marginetop_score_joueur">130dp</dimen>
+    <dimen name="marginEnd_ActivityGame">0dp</dimen>
+    <dimen name="main_textSize_score">50sp</dimen>
+    <dimen name="Game_libéllé_joueurs">25sp</dimen>
+    <dimen name="Textview_Rotation">180</dimen>
+    <dimen name="Game_Bouton_joueurs_marginTop">50dp</dimen>
+</resources>

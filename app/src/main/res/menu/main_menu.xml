@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/itemAbout"
+        android:icon="@drawable/ic_about"
+        android:title="@string/about" />
+
+    <item android:id="@+id/itemParam"
+        android:icon="@drawable/ic_about"
+        android:title="@string/Parametres" />
+
+    <item android:id="@+id/itemQuitter"
+        android:icon="@drawable/ic_about"
+        android:title="@string/main_boutton_quitter" />
+
+</menu>
