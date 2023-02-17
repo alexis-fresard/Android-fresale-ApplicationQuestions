@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="text"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textSize="@dimen/Textsize_NomJoueurs_Main" />
 
         </com.google.android.material.textfield.TextInputLayout>
 

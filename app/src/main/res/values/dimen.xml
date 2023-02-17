@@ -9,6 +9,7 @@
     <dimen name="marginEnd_ActivityGame">0dp</dimen>
     <dimen name="main_textSize_score">50sp</dimen>
     <dimen name="Game_libéllé_joueurs">25sp</dimen>
+    <dimen name="Textsize_NomJoueurs_Main">20sp</dimen>
     <dimen name="Textview_Rotation">180</dimen>
     <dimen name="Game_Bouton_joueurs_marginTop">50dp</dimen>
 </resources>
